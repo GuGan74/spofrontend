@@ -78,7 +78,7 @@ import Player from "./components/player";
 import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerERContext.jsx";
 import Login from "./components/Login";
-import Sidebar from "./components/sidebar";  // ✅ Correct import
+import Sidebar from "./components/Sidebar";  // ✅ Correct import
 
 
 const App = () => {
