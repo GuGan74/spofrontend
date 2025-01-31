@@ -73,11 +73,13 @@
 
 import React, { useState, useEffect, useContext } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Sidebar from "./components/sidebar";
+
 import Player from "./components/player";
 import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerERContext.jsx";
 import Login from "./components/Login";
+import Sidebar from "./components/sidebar";  // ✅ Correct import
+
 
 const App = () => {
     const { audioRef, track } = useContext(PlayerContext);
