@@ -1,4 +1,4 @@
-// Importing Icons
+
 import bell_icon from './bell.png';
 import home_icon from './home.png';
 import like_icon from './like.png';
@@ -24,7 +24,7 @@ import arrow_left from './left_arrow.png';
 import spotify_logo from './spotify_logo.png';
 import clock_icon from './clock_icon.png';
 
-// Importing Images
+
 import img1 from './img1.jpg';
 import img2 from './img2.jpg';
 import img3 from './img3.jpg';
@@ -41,18 +41,20 @@ import img13 from './img13.jpg';
 import img14 from './img14.jpg';
 import img15 from './img15.jpg';
 import img16 from './img16.jpg';
+import img17 from './img17.jpg';
 
-// Importing Songs
+
 import song1 from './song1.mp3';
 import song2 from './song2.mp3';
 import song3 from './song3.mp3';
 import song4 from './song4.mp3';
 import song5 from './song5.mp3';
 import song6 from './song6.mp3';
-import song7 from './song7.mp3'; // Added missing import
-import song8 from './song8.mp3'; // Added missing import
+import song7 from './song7.mp3'; 
+import song8 from './song8.mp3'; 
+import song9 from './song9.mp3';
 
-// Exporting Assets
+
 export const assets = {
     bell_icon,
     home_icon,
@@ -130,7 +132,7 @@ export const albumsData = [
 export const songsData = [
     {
         id: 0,
-        name: "Song One",
+        name: "vidaamuyarichi",
         image: img1,
         file: song1,
         desc: "Put a smile on your face with these happy tunes",
@@ -138,7 +140,7 @@ export const songsData = [
     },
     {
         id: 1,
-        name: "Song Two",
+        name: "peelings",
         image: img2,
         file: song2,
         desc: "Put a smile on your face with these happy tunes",
@@ -146,7 +148,7 @@ export const songsData = [
     },
     {
         id: 2,
-        name: "Song Three",
+        name: "adada adada",
         image: img3,
         file: song3,
         desc: "Put a smile on your face with these happy tunes",
@@ -154,15 +156,15 @@ export const songsData = [
     },
     {
         id: 3,
-        name: "Song Four",
+        name: "manasilaayo",
         image: img4,
-        file: song4,  // Corrected
+        file: song4,  
         desc: "Put a smile on your face with these happy tunes",
         duration: "2:50"
     },
     {
         id: 4,
-        name: "Song Five",
+        name: "Golden",
         image: img5,
         file: song5,
         desc: "Put a smile on your face with these happy tunes",
@@ -180,7 +182,7 @@ export const songsData = [
         id: 6,
         name: "Song Seven",
         image: img7,
-        file: song7,  // Corrected and imported
+        file: song7, 
         desc: "Put a smile on your face with these happy tunes",
         duration: "2:18"
     },
@@ -188,8 +190,52 @@ export const songsData = [
         id: 7,
         name: "Song Eight",
         image: img14,
-        file: song8,  // Corrected and imported
+        file: song8,  
         desc: "Put a smile on your face with these happy tunes",
         duration: "2:35"
     }
+];
+export const gug=[
+    {
+        id: 11,
+        name: "Koodamela Koodavechi ",
+        image: img17,
+        file: song9,  
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:35"
+    },
+    {
+        id: 7,
+        name: "Song Eight",
+        image: img14,
+        file: song8,  
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:35"
+    },
+    {
+        id: 7,
+        name: "Song Eight",
+        image: img14,
+        file: song8,  
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:35"
+    },
+    {
+        id: 7,
+        name: "Song Eight",
+        image: img14,
+        file: song8,  
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:35"
+    },
+    {
+        id: 7,
+        name: "Song Eight",
+        image: img14,
+        file: song8,  
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:35"
+    }
+
+
 ];

@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react'; // Import useRef and useEffect
-import { Routes, Route, useLocation } from 'react-router-dom';  // Ensure useLocation is imported
+import React, { useRef, useEffect } from 'react'; 
+import { Routes, Route, useLocation } from 'react-router-dom';  
 import DisplayHome from './DisplayHome';
 import DisplayAlbum from './DisplayAlbum';
 import { albumsData } from '../assets/assets';
@@ -17,7 +17,7 @@ const Display = () => {
     } else {
       displayRef.current.style.background = `#121212`;
     }
-  }, [isAlbum, bgColor]); // Add dependencies for useEffect
+  }, [isAlbum, bgColor]); 
 
   return (
     <div ref={displayRef} className="w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0">
@@ -30,7 +30,3 @@ const Display = () => {
 };
 
 export default Display;
-
-
-
-

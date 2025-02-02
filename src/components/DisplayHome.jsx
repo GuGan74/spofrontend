@@ -11,7 +11,7 @@ const DisplayHome = () => {
       <Navbar />
       <div className="mb-4">
         <h1 className="my-5 font-bold text-2xl">Featured Charts</h1>
-        {/* Parent container with flex-row */}
+       
         <div className="flex overflow-auto">
           {albumsData.map((item,index) => (
             <Albumitem
@@ -26,14 +26,24 @@ const DisplayHome = () => {
 
       </div>
       <div className="mb-4">
-        <h1 className="my-5 font-bold text-2xl">Today's biggest hits</h1>
-        {/* Parent container with flex-row */}
+        <h1 className="my-5 font-bold text-2xl">Today's biggest hits❤️‍🔥</h1>
+       
         <div className="flex overflow-auto">
           {songsData.map((item,index)=>(<Songitem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image} />))}
 
         </div>
         
       </div>
+
+    <div className="mb-4">
+        <h1 className="my-5 font-bold text-2xl">90's melody 🫠🤌🏻💗</h1>
+       
+        <div className="flex overflow-auto">
+          {songsData.map((item,index)=>(<Songitem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image} />))}
+
+        </div>
+        
+      </div>  
     </>
   );
 };

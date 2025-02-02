@@ -17,9 +17,9 @@ const Login = ({ setAuth }) => {
       const data = await response.json();
 
       if (response.ok) {
-        localStorage.setItem("token", data.data); // Store JWT token
+        localStorage.setItem("token", data.data); 
         setAuth(true);
-        navigate("/home"); // Redirect after login
+        navigate("/home"); 
       } else {
         alert(data.message || "Invalid Credentials!");
       }
